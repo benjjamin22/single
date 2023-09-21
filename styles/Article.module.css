@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+condensed');
+.body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background-color: #dcdcdc;
+}
+
+.userprofile {
+    background-color: #dcdcdc;
+    width: 25.5rem;
+    max-width: 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    margin: 0px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+}
+
+.profileinfoo h2 {
+    margin: -3px;
+}
+
+.profileinfoo h1 {
+    margin: -3px;
+}
+
+.profileinfooo h1 {
+    margin: -1px;
+}
+
+.profileinfooo h3 {
+    margin: -1px;
+}
+
+.profiletop {
+    background-color: rgb(216, 21, 21);
+    padding: .5rem;
+    text-align: center;
+    color: white;
+    border-radius: 0px;
+}
+
+.flecy {
+    margin-top: -25px;
+    display: flex;
+}
+
+.bg h9 {
+    color: black;
+    padding: 0 .8rem;
+}
+
+.status {
+    width: 45%;
+    margin: 0 1px;
+}
+
+.status h1 {
+    font-size: 12px;
+    margin-top: -5px;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.bg {
+    width: 25%;
+    margin: 0 1px;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.col h1 {
+    margin: 8px;
+    margin-top: 4px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: .5rem;
+    text-align: center;
+}
+
+.col h4 {
+    margin: 8px;
+    color: red;
+    font-size: 12px;
+    margin-bottom: 0px;
+    line-height: .5rem;
+    text-align: center;
+}
+
+.bg h1 {
+    font-size: 12px;
+    margin-top: -5px;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+.school .profileinfo {
+    flex-direction: column;
+    margin: -11px 0px;
+}
+
+.sex {
+    width: 25%;
+    margin: 0 1px;
+}
+
+.sex h1 {
+    font-size: 12px;
+    margin-top: -5px;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+.lga h1 {
+    font-size: 12px;
+    margin-top: -8px;
+    text-align: center;
+    padding: 0 0rem;
+}
+
+.lgacol {
+    flex-direction: column;
+}
+
+.lgacol h1 {
+    margin: -1px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.lgacol h3 {
+    margin: -1px;
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 12px;
+    margin: 0px;
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    margin: -9px 0px;
+    ;
+    justify-content: center;
+}
+
+.profiletop img {
+    border-radius: 5%;
+    border: 0px solid white;
+    height: 22em;
+    width: 19rem;
+    object-fit: cover;
+    margin-top: 0px;
+}
+
+.profiletop .profileinfo {
+    margin-top: 0rem;
+    color: rgb(235, 223, 223);
+}
+
+.profilebottom {
+    margin-top: .5rem;
+    padding: .5rem;
+    margin-left: 1rem;
+}
+
+.profileinfo p2 {
+    padding: 0 0px;
+    color: white;
+}
+
+.p1 {
+    background-color: black;
+    width: 9.5rem;
+    height: 2.5rem;
+    padding: 0rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    max-width: 95%;
+    justify-content: center;
+}
+
+.p2 {
+    background-color: red;
+    width: 9.5rem;
+    height: 2.5rem;
+    padding: 0rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    max-width: 95%;
+    justify-content: center;
+}
+
+.p2 .a {
+    text-decoration: none;
+}
+
+.profileinfo h1 {
+    font-weight: 100px;
+    font-size: 20px;
+}
+
+.profilebottom .profileinfo {
+    background-color: white;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border-radius: .0rem;
+    display: flex;
+    align-items: center;
+    max-width: 95%;
+    justify-content: center;
+    box-shadow: rgb(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 03)0px 8px 16px -8px;
+    transition: 0.5s ease;
+    border: 1px rgb(214, 211, 211) solid;
+}
+
+.profilebottom .profileinfo:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
